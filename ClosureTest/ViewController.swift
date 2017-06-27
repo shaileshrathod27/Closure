@@ -21,9 +21,7 @@ class ViewController: UIViewController
         print(customersInLine.count)
         
         print("Now serving \(customerProvider())!")
-        // Prints "Now serving Chris!"
         print(customersInLine.count)
-        // Prints "4"
         
         
         networkCall { (value) -> (Float) in
@@ -33,7 +31,6 @@ class ViewController: UIViewController
         
         var objStudent = Student(name: "Anil")
         print("Name 1 ==>> ", objStudent.name)
-
         testInOut(value: &objStudent)
         print("Name 2 ==>> ", objStudent.name)
         
